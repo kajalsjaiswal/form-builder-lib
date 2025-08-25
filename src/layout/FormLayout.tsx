@@ -1,7 +1,8 @@
+import { Layout } from "../styles/Common/Common"
 
 const FormLayout = () => {
   return (
-    <div>FormLayout</div>
+     <Layout />
   )
 }
 

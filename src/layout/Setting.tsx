@@ -1,6 +1,8 @@
+import { Layout } from "../styles/Common/Common"
+
 const Setting = () => {
     return (
-        <div>Setting</div>
+        <Layout />
     )
 }
 
