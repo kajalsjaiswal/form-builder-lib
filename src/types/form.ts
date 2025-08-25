@@ -1,3 +1,5 @@
+
+import type { ReactNode } from "react";
 export interface FormField {
         id: string;
         type: string;
@@ -6,6 +8,7 @@ export interface FormField {
         placeholder?: string;
         description?: string;
         fields?: any;
+        icon?: ReactNode;
         value?: any;
         props?: {
                 required?: boolean;
